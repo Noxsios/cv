@@ -7,4 +7,5 @@ runs:
     - name: Compile CV using Typst
       shell: bash
       run: |
-        docker run --rm -it --volume ./:/root ghcr.io/typst/typst:latest typst compile cv.typ
+        brew install typst
+        typst compile cv.typ

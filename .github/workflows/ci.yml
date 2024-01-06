@@ -17,6 +17,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - uses: ./.github/actions/fonts
+      - name: Install fonts
+        uses: ./.github/actions/fonts
 
-      - uses: ./.github/actions/compile
+      - name: Compile cv
+        uses: ./.github/actions/compile
