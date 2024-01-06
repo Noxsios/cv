@@ -1,0 +1,14 @@
+name: Install PT Sans Font
+description: Downloads and installs the PT Sans font
+
+runs:
+  using: composite
+  steps:
+    - name: Install PT Sans Font
+      shell: bash
+      run: |
+          wget -O pt_sans.zip "https://fonts.google.com/download?family=PT%20Sans"
+          unzip -d pt_sans/ pt_sans.zip
+          mkdir -p ~/.fonts
+          mv pt_sans ~/.fonts/
+          fc-cache -v

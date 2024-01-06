@@ -1,0 +1,10 @@
+name: Compile CV using Typst
+description: Compiles the CV using Typst via Docker
+
+runs:
+  using: composite
+  steps:
+    - name: Compile CV using Typst
+      shell: bash
+      run: |
+        docker run --rm -it --volume ./:/root ghcr.io/typst/typst:latest typst compile cv.typ
