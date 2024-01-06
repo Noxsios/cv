@@ -36,7 +36,7 @@ jobs:
         uses: ./.github/actions/dependencies
 
       - name: Compile cv
-        run: typst compile cv.typ
+        run: typst compile cv.typ harry-randazzo-cv.pdf
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

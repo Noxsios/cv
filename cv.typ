@@ -1,5 +1,5 @@
 #import "@preview/splash:0.3.0": tailwind
-#set document(title: "Harry Randazzo's Resume", author: "Harry Randazzo")
+#set document(title: "Harry Randazzo's CV", author: "Harry Randazzo")
 #set page(
   margin: (x: 0.5in, y: 0.5in),
 )
