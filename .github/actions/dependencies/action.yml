@@ -1,0 +1,14 @@
+name: Install dependencies
+description: Downloads and installs dependencies
+
+runs:
+  using: composite
+  steps:
+    - name: Brew Install
+      shell: bash
+      run: |
+        brew install typst font-pt-sans
+
+        typst -V
+
+        typst fonts | grep "PT Sans"
