@@ -115,7 +115,7 @@ header: quad(
 ),
 events: (
   [Designed and implemented a web application that combined data from 5+ Air Force systems, producing a simple, searchable, and printable dashboard of an organization's deployment readiness and personnel administrative status.],
-  [Core network architect for the team that designed and deployed the DOD's first counter small unmanned aerial system (cSUAS) platform.],
+  [Core network architect for the team that designed and deployed the DoD's first counter small unmanned aerial system (cSUAS) platform.],
   [Sole network technician for deployed U.S. emergency medical personnel during NATO's largest medical emergency field exercise in its history (2500+ participants, 39 partner nations).],
 ))
 
