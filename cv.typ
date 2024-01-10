@@ -90,7 +90,7 @@ header: quad(
   br: [2022 --- Present],
 ),
 events: (
-  [Implemented core features, stabilized code base, mentored developers, one of two core maintainers on #link("https://zarf.dev")[Zarf]: a tool to package cloud native applications and deployments. DevSecOps for the air gap.],
+  [Architected and implemented core features, refactored legacy code, mentored new developers, one of two core maintainers on #link("https://zarf.dev")[Zarf]: a tool to package cloud native applications and deployments. DevSecOps for the air gap.],
   [Created company's first AI web app deployed to DoD customers.]
 ))
 
