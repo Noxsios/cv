@@ -2,7 +2,7 @@
 
 Single-page, clean and simple developer CV written with [typst](https://typst.app/), [tailwindcss colors](https://github.com/kaarmu/typst-palettes/blob/main/doc/main.pdf) and published to GitHub Pages.
 
-![cv](https://github.com/Noxsios/cv/assets/50058333/420ab853-bc9b-4b25-866e-14f2826602ff)
+![cv](https://noxsios.github.io/cv/harry-randazzo-cv.png)
 
 ## Building Locally
 
