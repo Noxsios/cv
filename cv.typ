@@ -1,5 +1,5 @@
 #import "@preview/splash:0.3.0": tailwind
-#set document(title: "Harry Randazzo's CV", author: "Harry Randazzo")
+#set document(title: "Harry Randazzo's CV", author: "Harry Randazzo", keywords: ("software engineer", "razzle","harry randazzo", "cv", "resume"))
 #set page(
   margin: (x: 0.5in, y: 0.5in),
 )
@@ -90,7 +90,7 @@ header: quad(
   br: [2022 --- Present],
 ),
 events: (
-  [Architected and implemented core features, refactored legacy code, mentored new developers, one of two core maintainers on #link("https://zarf.dev")[Zarf]: a tool to package cloud native applications and deployments. DevSecOps for the air gap.],
+  [Architected and implemented core features, refactored legacy code, mentored new developers, engineering technical lead on #link("https://zarf.dev")[Zarf]: a tool to package cloud native applications and deployments, delivering DevSecOps to air gap environments.],
   [Created company's first AI web app deployed to DoD customers.]
 ))
 

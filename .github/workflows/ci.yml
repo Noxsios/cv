@@ -21,4 +21,4 @@ jobs:
         uses: ./.github/actions/dependencies
 
       - name: Compile cv
-        run: typst compile cv.typ
+        uses: ./.github/actions/compile

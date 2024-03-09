@@ -1,0 +1,11 @@
+name: Compile CV to PDF and PNG
+description: Compiles the CV to PDF and PNG
+
+runs:
+  using: composite
+  steps:
+    - name: Compile cv
+      shell: bash
+      run: |
+        typst compile cv.typ harry-randazzo-cv.pdf
+        typst compile cv.typ harry-randazzo-cv.png
