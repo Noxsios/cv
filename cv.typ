@@ -2,6 +2,12 @@
 #set document(title: "Harry Randazzo's CV", author: "Harry Randazzo", keywords: ("software engineer", "razzle","harry randazzo", "cv", "resume"))
 #set page(
   margin: (x: 0.5in, y: 0.5in),
+  footer: [
+    #set text(8pt)
+    #let commit = read(".git/refs/heads/main").trim().slice(0, 7)
+    #let url = "https://github.com/Noxsios/cv/tree/"+commit
+    `git checkout` #link(url)[#raw(commit)]
+  ]
 )
 #set text(
   size: 11pt,
