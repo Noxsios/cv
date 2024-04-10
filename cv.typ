@@ -4,9 +4,9 @@
   margin: (x: 0.5in, y: 0.5in),
   footer: [
     #set text(8pt)
-    #let commit = read(".git/refs/heads/main").trim().slice(0, 7)
-    #let url = "https://github.com/Noxsios/cv/tree/"+commit
-    `git checkout` #link(url)[#raw(commit)]
+    #let head = read(".git/HEAD").trim().split(": ").at(1)
+    #let url = "https://github.com/Noxsios/cv/tree/"+head
+    `git checkout` #link(url)[#raw(head)]
   ]
 )
 #set text(
