@@ -5,8 +5,11 @@
   footer: [
     #set text(8pt)
     #let head = read(".git/HEAD").trim().split(": ").at(1)
+    #if head == "refs/heads/main" {
+      head = read(".git/refs/heads/main").trim().slice(0, 7)
+    }
     #let url = "https://github.com/Noxsios/cv/tree/"+head
-    `git checkout` #link(url)[#raw(head)]
+    `git switch` #link(url)[#raw(head)]
   ]
 )
 #set text(
