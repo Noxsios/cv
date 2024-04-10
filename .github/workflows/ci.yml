@@ -19,6 +19,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: list refs
+        run: ls -la .git/refs/heads
+
       - name: Install dependencies
         uses: ./.github/actions/dependencies
 
