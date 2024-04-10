@@ -1,5 +1,5 @@
 #import "@preview/splash:0.3.0": tailwind
-#set document(title: "Harry Randazzo's CV", author: "Harry Randazzo", keywords: ("software engineer", "razzle","harry randazzo", "cv", "resume"))
+#set document(title: "Harry Randazzo's CV", author: "Harry Randazzo", keywords: ("software engineer", "razzle", "harry randazzo", "cv", "resume"))
 #set page(
   margin: (x: 0.5in, y: 0.5in),
   footer: [
@@ -34,8 +34,8 @@
   grid(
     columns: (70%, 30%),
     align(left)[
-      #strong(tl) \
-      #emph(text(tailwind.slate-700, bl)) \
+      #tl \
+      #emph(strong(text(tailwind.slate-700, bl))) \
     ],
     align(right)[
       #text(tailwind.slate-700, tr) \
@@ -65,12 +65,6 @@
     Mobile : +1-213-986-8048
   ]
 )
-
-// #v(3pt)
-
-// #h2[Summary]
-
-// > insert summary here
 
 #h2[Experience]
 
@@ -169,7 +163,7 @@ events: (
   column-gutter: 0.5em,
   skill[Go],
   skill[OCI/ORAS/Docker],
-  skill[JavaScript/Typescript],
+  skill[JavaScript/TypeScript],
   skill[Svelte/SvelteKit],
   skill[Kubernetes],
   skill[Python],
