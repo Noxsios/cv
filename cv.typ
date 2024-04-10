@@ -174,7 +174,7 @@ Experienced building services and applications with the following technologies:
   columns: 7,
   column-gutter: 0.5em,
   skill[Go],
-  skill[OCI/Docker],
+  skill[OCI/ORAS/Docker],
   skill[JavaScript/TypeScript],
   skill[Svelte/SvelteKit],
   skill[REST APIs],
