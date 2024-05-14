@@ -4,7 +4,12 @@
   margin: (x: 0.5in, y: 0.5in),
   footer: [
     #set text(8pt)
-    #let head = read(".git/HEAD").trim().split(": ").at(1)
+    #let head = read(".git/HEAD").trim()
+    #if head.contains(": ") {
+      head = head.split(": ").at(1).trim()
+    } else {
+      head = head.slice(0, 7)
+    }
     #if head == "refs/heads/main" {
       head = read(".git/refs/heads/main").trim().slice(0, 7)
     }
