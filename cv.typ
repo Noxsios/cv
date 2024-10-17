@@ -154,6 +154,8 @@ events: (
 
 #link("https://github.com/defenseunicorns/koci")[koci] - Kotlin implementation of the OCI Distribution client specification.
 
+#link("https://dsn-converter.pages.dev")[dsn-converter.pages.dev] - Offline first  web app that allows for conversion of European Defense Switched Network (DSN) phone numbers to their commercial equivalent. Written in React with TypeScript.
+
 #h2[Skills]
 
 #let skill = it => {
@@ -169,7 +171,7 @@ events: (
   )
 }
 
-Experienced building services and applications with the following technologies:
+// Experienced building services and applications with the following technologies:
 
 #grid(
   columns: 7,
