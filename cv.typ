@@ -150,8 +150,6 @@ events: (
 
 #link("https://blog.razzle.cloud")[blog.razzle.cloud] - My personal website and blog. Built with Zola, hosted by Vercel.
 
-#link("https://vai.razzle.cloud/")[vai] - A simple task runner written in Go. Imagine Imagine GitHub actions and Makefile had a baby.
-
 #link("https://github.com/defenseunicorns/koci")[koci] - Kotlin implementation of the OCI Distribution client specification.
 
 #link("https://dsn-converter.pages.dev")[dsn-converter.pages.dev] - Offline first  web app that allows for conversion of European Defense Switched Network (DSN) phone numbers to their commercial equivalent. Written in React with TypeScript.
@@ -171,7 +169,7 @@ events: (
   )
 }
 
-// Experienced building services and applications with the following technologies:
+Experienced building services and applications with the following technologies:
 
 #grid(
   columns: 7,
@@ -182,5 +180,5 @@ events: (
   skill[Svelte/SvelteKit],
   skill[REST APIs],
   skill[Kubernetes],
-  skill[Python],
+  skill[CI/CD],
 )
