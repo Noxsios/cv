@@ -169,8 +169,6 @@ events: (
   )
 }
 
-Experienced building services and applications with the following technologies:
-
 #grid(
   columns: 7,
   column-gutter: 0.5em,
