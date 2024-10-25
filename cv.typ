@@ -98,8 +98,9 @@ header: quad(
   br: [2022 --- Present],
 ),
 events: (
-  [Architected and implemented core features, refactored legacy code, mentored new developers, engineering technical lead on #link("https://docs.zarf.dev")[Zarf]: a tool to package cloud native applications and deployments, delivering DevSecOps to air gap environments.],
-  [Won multiple company-wide hackathons, including one that resulted in Defense Unicorns first AI web application deployed to a DoD customer.],
+  [Implemented portions of the Open Containers Initiative (OCI) specification in Go, TypeScript, Rust, and a full #link("https://github.com/defenseunicorns/koci")[client] implementation in Kotlin.],
+  [Architected and implemented core features, refactored legacy code, mentored new developers, rose to engineering technical lead on #link("https://zarf.dev")[Zarf]: a tool to package cloud native applications and deployments, delivering DevSecOps to air gap environments.],
+  [Created company's first AI web application deployed to Department of Defense (DoD) customers.],
 ))
 
 #pe(
@@ -149,7 +150,7 @@ events: (
 
 #link("https://blog.razzle.cloud")[blog.razzle.cloud] - My personal website and blog. Built with Zola, hosted by Vercel.
 
-#link("https://palx-pwa.pages.dev")[palx-pwa.pages.dev] - Given a base color, generate a palette, render all the shades, and provide download buttons for a variety of formats. Written in Svelte with SvelteKit.
+#link("https://github.com/defenseunicorns/koci")[koci] - Kotlin implementation of the OCI Distribution client specification.
 
 #link("https://dsn-converter.pages.dev")[dsn-converter.pages.dev] - Offline first  web app that allows for conversion of European Defense Switched Network (DSN) phone numbers to their commercial equivalent. Written in React with TypeScript.
 
@@ -174,10 +175,10 @@ Experienced building services and applications with the following technologies:
   columns: 7,
   column-gutter: 0.5em,
   skill[Go],
-  skill[OCI/Docker],
+  skill[OCI/ORAS/Docker],
   skill[JavaScript/TypeScript],
-  skill[Svelte/SvelteKit],
   skill[REST APIs],
   skill[Kubernetes],
   skill[Python],
+  skill[CI/CD],
 )

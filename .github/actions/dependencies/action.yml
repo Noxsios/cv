@@ -7,7 +7,6 @@ runs:
     - name: Brew Install
       shell: bash
       run: |
-        brew tap homebrew/cask-fonts
         brew install typst font-pt-sans
 
         typst -V
