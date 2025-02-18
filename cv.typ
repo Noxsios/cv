@@ -98,7 +98,7 @@ header: quad(
   br: [2022 --- Present],
 ),
 events: (
-  [Implemented portions of the Open Containers Initiative (OCI) specification in Go, TypeScript, Rust, and a full /*#link("https://github.com/defenseunicorns/koci")[client]*/ client implementation in Kotlin.],
+  [Implemented portions of the Open Containers Initiative (OCI) specification in Go, TypeScript, Rust, and a full client implementation in #link("https://github.com/defenseunicorns/koci")[Kotlin].],
   [Architected and implemented core features, refactored legacy code, mentored new developers, rose to engineering technical lead on #link("https://zarf.dev")[Zarf]: a tool to package cloud native applications and deployments, delivering DevSecOps to air gap environments.],
   [Created company's first AI web application deployed to Department of Defense (DoD) customers.],
 ))
