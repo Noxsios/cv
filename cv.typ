@@ -30,7 +30,7 @@
   smallcaps(it)
 }
 
-#let h2(header) = {
+#let section-heading(header) = {
   rect(
     width: 100%,
     stroke: (left: none, top: none, right: none, bottom: (paint: black, thickness: 1pt, cap: "round")),
@@ -74,9 +74,9 @@
   ]
 )
 
-#h2[Experience]
+#section-heading[Experience]
 
-#let pe(
+#let entry(
   header: quad,
   events: array,
 ) = {
@@ -90,7 +90,7 @@
 
 #show link: underline
 
-#pe(
+#entry(
 header: quad(
   tl: [Defense Unicorns],
   tr: [Remote],
@@ -103,7 +103,7 @@ events: (
   [Created company's first AI web application deployed to Department of Defense (DoD) customers.],
 ))
 
-#pe(
+#entry(
 header: quad(
   tl: [USAF --- Platform One],
   tr: [San Antonio, TX],
@@ -115,7 +115,7 @@ events: (
   [Built a #link("https://docs-bigbang.dso.mil")[documentation compiler] for the Big Bang product; assembles the documentation for Big Bang and its packages (20+) into a single, versioned, searchable and clean site.]
 ))
 
-#pe(
+#entry(
 header: quad(
   tl: [USAF --- 1st Combat Communications Squadron],
   tr: [Ramstein AB, Germany],
@@ -128,7 +128,7 @@ events: (
   [Sole network technician for deployed U.S. emergency medical personnel during NATO's largest medical emergency field exercise in its history (2500+ participants, 39 partner nations).],
 ))
 
-#h2[Education]
+#section-heading[Education]
 
 #quad(
   tl: [University of Maryland Global Campus],
@@ -144,7 +144,7 @@ events: (
   br: [May 2020 --- Aug. 2020]
 )
 
-#h2[Projects]
+#section-heading[Projects]
 
 #link("https://vai.razzle.cloud")[vai] - A simple task runner written in Go. Imagine Makefile and GitHub Actions had a baby.
 
@@ -154,16 +154,14 @@ events: (
 
 #link("https://dsn-converter.pages.dev")[dsn-converter.pages.dev] - Offline first  web app that allows for conversion of European Defense Switched Network (DSN) phone numbers to their commercial equivalent. Written in React with TypeScript.
 
-#h2[Skills]
+#section-heading[Skills]
 
 #let skill = it => {
   box(
-    // fill: tailwind.slate-950,
     stroke: tailwind.slate-950,
     inset: (x: 0.5em, y: 0.5em),
     radius: 4pt,
     text(
-      // fill: tailwind.slate-100,
       it
     )
   )
