@@ -11,4 +11,4 @@ clean:
 	rm -f *.pdf *.png
 
 .DEFAULT_GOAL = cv.pdf
-.PHONY: %.pdf watch clean
+.PHONY: watch clean
