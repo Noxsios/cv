@@ -98,8 +98,9 @@ header: quad(
   br: [2022 --- Present],
 ),
 events: (
+  [Architected and implemented #link("https://github.com/defesenseunicorns/maru2")[maru2], a high-performance task runner in Go that simplifies workflow automation with GitHub Actions-inspired syntax, featuring remote task distribution via OCI artifacts, task vendoring, powerful lifecycle management, and comprehensive schema validation for YAML-based workflows.],
   [Implemented portions of the Open Containers Initiative (OCI) specification in Go, TypeScript, Rust, and a full client implementation in #link("https://github.com/defenseunicorns/koci")[Kotlin].],
-  [Architected and implemented core features, refactored legacy code, mentored new developers, rose to engineering technical lead on #link("https://zarf.dev")[Zarf]: a tool to package cloud native applications and deployments, delivering DevSecOps to air gap environments.],
+  [Developed core features, refactored legacy code, mentored new developers, rose to engineering technical lead on #link("https://zarf.dev")[Zarf]: a tool to package cloud native applications and deployments, delivering DevSecOps to air gap environments.],
   [Created company's first AI web application deployed to Department of Defense (DoD) customers.],
 ))
 
@@ -146,11 +147,9 @@ events: (
 
 #section-heading[Projects]
 
-#link("https://vai.razzle.cloud")[vai] - A simple task runner written in Go. Imagine Makefile and GitHub Actions had a baby.
-
 #link("https://blog.razzle.cloud")[blog.razzle.cloud] - My personal website and blog. Built with Zola, hosted by Vercel.
 
-//#link("https://github.com/defenseunicorns/koci")[koci] - Kotlin implementation of the OCI Distribution client specification.
+#link("https://github.com/defenseunicorns/koci")[koci] - Kotlin implementation of the OCI Distribution client specification.
 
 #link("https://dsn-converter.pages.dev")[dsn-converter.pages.dev] - Offline first  web app that allows for conversion of European Defense Switched Network (DSN) phone numbers to their commercial equivalent. Written in React with TypeScript.
 
