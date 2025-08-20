@@ -98,7 +98,7 @@ header: quad(
   br: [2022 --- Present],
 ),
 events: (
-  [Architected and implemented #link("https://github.com/defesenseunicorns/maru2")[maru2], a high-performance task runner in Go that simplifies workflow automation with GitHub Actions-inspired syntax, featuring remote task distribution via OCI artifacts, task vendoring, powerful lifecycle management, and comprehensive schema validation for YAML-based workflows.],
+  [Created #link("https://github.com/defesenseunicorns/maru2")[maru2], a high-performance Go task runner for streamlined workflow automation, combining GitHub Actions–style syntax with remote task distribution via OCI artifacts and robust lifecycle management.],
   [Implemented portions of the Open Containers Initiative (OCI) specification in Go, TypeScript, Rust, and a full client implementation in #link("https://github.com/defenseunicorns/koci")[Kotlin].],
   [Developed core features, refactored legacy code, mentored new developers, rose to engineering technical lead on #link("https://zarf.dev")[Zarf]: a tool to package cloud native applications and deployments, delivering DevSecOps to air gap environments.],
   [Created company's first AI web application deployed to Department of Defense (DoD) customers.],
