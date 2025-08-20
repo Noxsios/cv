@@ -27,7 +27,7 @@ brew install typst
 4. Compile the cv:
 
 ```bash
-typst compile cv.typ
+make
 ```
 
 View the `cv.pdf` file in your favorite pdf viewer!

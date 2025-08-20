@@ -6,6 +6,4 @@ runs:
   steps:
     - name: Compile cv
       shell: bash
-      run: |
-        typst compile cv.typ harry-randazzo-cv.pdf
-        typst compile cv.typ harry-randazzo-cv.png
+      run: make harry-randazzo-cv.pdf harry-randazzo-cv.png
