@@ -90,17 +90,24 @@
 
 #show link: underline
 
+#quad(
+  tl: [Palantir Technologies],
+  tr: [New York, NY],
+  bl: [Software Engineer],
+  br: [2025 --- Present],
+)
+
 #entry(
 header: quad(
   tl: [Defense Unicorns],
   tr: [Remote],
   bl: [Software Engineer],
-  br: [2022 --- Present],
+  br: [2022 --- 2025],
 ),
 events: (
   [Implemented portions of the Open Containers Initiative (OCI) specification in Go, TypeScript, Rust, and a full client implementation in #link("https://github.com/defenseunicorns/koci")[Kotlin].],
   [Created #link("https://github.com/defesenseunicorns/maru2")[maru2], a high-performance Go task runner for streamlined workflow automation, combining GitHub Actions-style syntax with remote task distribution via OCI artifacts and robust lifecycle management.],
-  [Developed core features, refactored legacy code, mentored new developers, rose to engineering technical lead on #link("https://zarf.dev")[Zarf]: a tool to package cloud native applications and deployments, delivering DevSecOps to air gap environments.],
+  [Developed core features, refactored legacy code, mentored new developers, rose to engineering technical lead on #link("https://zarf.dev")[Zarf]: the airgap native packager manager for Kubernetes.],
 ))
 
 #entry(
@@ -112,7 +119,7 @@ header: quad(
 ),
 events: (
   [Wrote a Python command-line interface (CLI) for the automation of product releases and release notes generation, greatly expediting the release process on a bi-weekly basis.],
-  [Built a #link("https://docs-bigbang.dso.mil")[documentation compiler] for the Big Bang product; assembles the documentation for Big Bang and its packages (20+) into a single, versioned, searchable and clean site.]
+  [Built a #link("https://docs-bigbang.dso.mil")[documentation compiler]; assembles the documentation for Big Bang and its packages (20+) into a single, versioned, searchable and clean site.]
 ))
 
 #entry(
@@ -148,7 +155,7 @@ events: (
 
 #link("https://blog.razzle.cloud")[blog.razzle.cloud] - My personal website and blog. Built with Zola, hosted by Vercel.
 
-#link("https://github.com/defenseunicorns/koci")[koci] - Kotlin implementation of the OCI Distribution client specification.
+// #link("https://github.com/defenseunicorns/koci")[koci] - Kotlin implementation of the OCI Distribution client specification.
 
 #link("https://dsn-converter.pages.dev")[dsn-converter.pages.dev] - Offline first  web app that allows for conversion of European Defense Switched Network (DSN) phone numbers to their commercial equivalent. Written in React with TypeScript.
 
