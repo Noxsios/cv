@@ -106,7 +106,7 @@ header: quad(
 ),
 events: (
   [Implemented portions of the Open Containers Initiative (OCI) specification in Go, TypeScript, Rust, and a full client implementation in #link("https://github.com/defenseunicorns/koci")[Kotlin].],
-  [Created #link("https://github.com/defesenseunicorns/maru2")[maru2], a high-performance Go task runner for streamlined workflow automation, combining GitHub Actions-style syntax with remote task distribution via OCI artifacts and robust lifecycle management.],
+  [Created #link("https://github.com/defenseunicorns/maru2")[maru2], a high-performance Go task runner for streamlined workflow automation, combining GitHub Actions-style syntax with remote task distribution via OCI artifacts and robust lifecycle management.],
   [Developed core features, refactored legacy code, mentored new developers, rose to engineering technical lead on #link("https://zarf.dev")[Zarf]: the airgap native packager manager for Kubernetes.],
 ))
 
