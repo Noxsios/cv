@@ -7,7 +7,8 @@ runs:
     - name: Brew Install
       shell: bash
       run: |
-        brew install typst font-pt-sans
+        brew install typst
+        brew install --cask font-pt-sans
 
         typst -V
 
