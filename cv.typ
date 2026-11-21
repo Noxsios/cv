@@ -59,11 +59,9 @@
 #grid(
   columns: (1fr, 1fr),
   align(left)[
-    #smallcaps(
-      text(
-        size: 16pt,
-        [Harry `"razzle"` Randazzo]
-      )
+    #text(
+      size: 16pt,
+      [Harry `"razzle"` Randazzo]
     ) \
     #link("https://razzle.cloud") \
     `$ curl -sL meta.razzle.cloud`
@@ -81,7 +79,7 @@
   events: array,
 ) = {
   header
-  v(0.5em)
+  v(0.25em)
   list(
     ..events,
     marker: [◦],
@@ -105,7 +103,7 @@ header: quad(
   br: [2022 --- 2025],
 ),
 events: (
-  [Implemented portions of the Open Containers Initiative (OCI) specification in Go, TypeScript, Rust, and a full client implementation in #link("https://github.com/defenseunicorns/koci")[Kotlin].],
+  [Implemented portions of the Open Containers Initiative (OCI) specification in Go, TypeScript, Rust, and a full client implementation in Kotlin - #link("https://github.com/defenseunicorns/koci")[koci].],
   [Created #link("https://github.com/defenseunicorns/maru2")[maru2], a high-performance Go task runner for streamlined workflow automation, combining GitHub Actions-style syntax with remote task distribution via OCI artifacts and robust lifecycle management.],
   [Developed core features, refactored legacy code, mentored new developers, rose to engineering technical lead on #link("https://zarf.dev")[Zarf]: the airgap native packager manager for Kubernetes.],
 ))
@@ -154,8 +152,6 @@ events: (
 #section-heading[Projects]
 
 #link("https://blog.razzle.cloud")[blog.razzle.cloud] - My personal website and blog. Built with Zola, hosted by Vercel.
-
-// #link("https://github.com/defenseunicorns/koci")[koci] - Kotlin implementation of the OCI Distribution client specification.
 
 #link("https://dsn-converter.pages.dev")[dsn-converter.pages.dev] - Offline first  web app that allows for conversion of European Defense Switched Network (DSN) phone numbers to their commercial equivalent. Written in React with TypeScript.
 
