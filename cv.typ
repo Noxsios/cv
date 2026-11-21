@@ -19,14 +19,14 @@
 )
 #set text(
   size: 11pt,
-  weight: 300,
+  weight: 400,
   fill: tailwind.slate-950,
-  font: "PT Sans",
+  font: "Source Sans 3",
   fallback: true,
 )
 
 #show heading: it => {
-  set text(weight: 400)
+  set text(weight: 500)
   smallcaps(it)
 }
 
